@@ -1,0 +1,66 @@
+section {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 100vw;
+  max-width: 1200px;
+  height: 100vh;
+}
+
+section.top {
+  background-color: #efd592;
+}
+
+section.top > button {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+
+section.top > button.btn-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #efd592;
+  background-color: #242d38;
+}
+
+section.top > button.btn-2 {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  width: 200px;
+  height: 60px;
+  font-size: 21px;
+  font-weight: 700;
+  border: 6px solid #242d38;
+}
+
+section.bottom {
+  background-color: #4343f9;
+}
+
+section.bottom > .btn-3 {
+  position: absolute;
+  right: 50%;
+  bottom: 40px;
+  -webkit-transform: translate(50%);
+          transform: translate(50%);
+  width: 200px;
+  height: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #ffffff;
+  background-color: #4343f9;
+}
+/*# sourceMappingURL=style.css.map */
