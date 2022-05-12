@@ -1,11 +1,16 @@
 section {
   position: relative;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
   width: 100vw;
-  max-width: 1200px;
   height: 100vh;
+}
+
+@media (min-width: 1200px) {
+  section {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    max-width: 1200px;
+  }
 }
 
 section.top {
@@ -60,6 +65,8 @@ section.bottom > .btn-3 {
   font-size: 21px;
   font-weight: 400;
   text-transform: capitalize;
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
   color: #ffffff;
   background-color: #4343f9;
 }

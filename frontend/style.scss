@@ -1,12 +1,17 @@
 section {
     position: relative;
 
-    left: 50%;
-    transform: translateX(-50%);
-
     width: 100vw;
-    max-width: 1200px;
     height: 100vh;
+
+    @media (min-width: 1200px) {
+        & {
+            left: 50%;
+            transform: translateX(-50%);
+
+            max-width: 1200px;
+        }
+    }
 
     &.top {
         background-color: #efd592;
@@ -69,6 +74,8 @@ section {
             font-size: 21px;
             font-weight: 400;
             text-transform: capitalize;
+
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 
             color: #ffffff;
             background-color: #4343f9;
